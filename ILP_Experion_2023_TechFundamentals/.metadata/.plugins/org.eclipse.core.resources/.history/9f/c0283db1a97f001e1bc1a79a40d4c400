@@ -1,0 +1,25 @@
+package com.ilp.utility;
+
+import java.util.Scanner;
+
+public class AccountUtility {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		Account account = null;
+
+		Scanner scanner = new Scanner(System.in);
+		System.out.println("1. Create Account 2. Display Account");
+		int mainMenuChoice = scanner.nextInt();
+		switch (mainMenuChoice) {
+		case 1:
+			account = Service.createAccount();
+			break;
+		case 2:
+			Service.displayAccount(account);
+			break;
+		}
+	}
+
+}

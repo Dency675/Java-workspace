@@ -1,0 +1,24 @@
+package com.ilp.utility;
+
+import java.util.Scanner;
+
+public class AccountUtility {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		Scanner scanner = new Scanner(System.in);
+		char goToMainMenu;
+
+		do {
+			int mainMenuChoice = scanner.nextInt();
+			switch (mainMenuChoice) {
+			case 1:
+				break;
+			}
+			System.out.print("Go back to main menu (y/n) : ");
+			goToMainMenu = scanner.next().charAt(0);
+		} while (goToMainMenu == 'y');
+
+	}
+}

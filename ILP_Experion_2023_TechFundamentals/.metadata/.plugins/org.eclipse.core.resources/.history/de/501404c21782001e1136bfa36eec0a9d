@@ -1,0 +1,21 @@
+package com.ilp.servies;
+
+import java.util.ArrayList;
+
+import com.ilp.entity.Services;
+
+public class Service {
+
+	public static ArrayList<Services> createService() {
+		// TODO Auto-generated method stub
+		
+		ArrayList<Services> serviceList = new ArrayList<Services>();
+		serviceList.add("AB1","service1",2341);
+		
+		
+		
+		return null;
+	}
+	
+
+}

@@ -1,0 +1,28 @@
+package com.ilp.basicprogramming.assignment;
+
+import java.util.Scanner;
+
+public class Q5SumOfSeries {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Scanner scanner = new Scanner(System.in);
+		System.out.print("Enter the limit: ");
+		int limit = scanner.nextInt();
+		int sign = -1;
+		int result = 0,count=0,powerOfnumber=1;
+
+		for (int index = 1; index <= limit; index++) {
+			if ((index % 2) == 1) {
+				count++;
+				sign *= (-1);
+				for(int i=0;i<index;i++)
+					powerOfnumber*=index;
+				result += (sign * powerOfnumber);
+				
+			}
+		}
+		System.out.println(result);
+	}
+
+}

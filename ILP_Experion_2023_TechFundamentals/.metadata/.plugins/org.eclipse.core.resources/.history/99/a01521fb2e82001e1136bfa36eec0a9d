@@ -1,0 +1,36 @@
+package com.ilp.servies;
+
+import java.util.ArrayList;
+import java.util.Scanner;
+
+import com.ilp.entity.Product;
+import com.ilp.entity.Services;
+
+public class ProductService {
+
+	public static Product createProduct() {
+		// TODO Auto-generated method stub
+		
+		ArrayList<Services> serviceList = new ArrayList<Services>();
+		serviceList.add(ServiceService.createService());
+		
+		Scanner scanner = new Scanner(System.in);
+		
+		System.out.println("****Accounts Available*********** \r\n"
+				+ "1. Savings Max Account \r\n"
+				+ "2. Current Account \r\n"
+				+ "3. Loan Account \r\n"
+				+ "Enter Your choice:");
+		int choice = scanner.nextInt();
+		switch(choice) {
+		case 1:
+			Product product=new Product("pr100","product1",serviceList);
+			break;
+		}
+		return product;
+
+	}
+
+	
+}
+

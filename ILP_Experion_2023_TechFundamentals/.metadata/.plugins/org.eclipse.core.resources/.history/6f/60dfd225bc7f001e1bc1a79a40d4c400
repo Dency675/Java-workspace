@@ -1,0 +1,17 @@
+package com.ilp.service;
+
+import com.ilp.entity.Product;
+
+public class ProductService {
+
+	public static Product createProduct() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	public static void displayProduct(Product product) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

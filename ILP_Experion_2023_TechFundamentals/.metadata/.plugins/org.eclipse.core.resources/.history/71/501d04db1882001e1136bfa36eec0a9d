@@ -1,0 +1,19 @@
+package com.ilp.servies;
+
+import java.util.ArrayList;
+
+import com.ilp.entity.Account;
+import com.ilp.entity.Services;
+
+public class ProductService {
+
+	public static void createProduct() {
+		// TODO Auto-generated method stub
+		ArrayList<Services> serviceList = new ArrayList<Services>();
+		serviceList.add(ServiceService.createService());
+
+	}
+
+	
+}
+

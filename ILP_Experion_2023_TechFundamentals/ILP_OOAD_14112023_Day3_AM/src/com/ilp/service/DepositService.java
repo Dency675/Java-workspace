@@ -1,0 +1,22 @@
+package com.ilp.service;
+
+public class DepositService extends AccountService {
+
+	public static void depositMoney(double amount,String slipNo ) {
+		System.out.println("Over the counter depositing");
+	}
+	public static void depositMoney(String chequeNo ) {
+		System.out.println("Cheque depositing ");
+	}
+	public static void depositMoney(String dDNo,String bankBranch ) {
+		System.out.println("Demand Draft depositing");
+	
+	}
+	@Override
+	public void freeTransaction() {
+		// TODO Auto-generated method stub
+		
+		System.out.println("Free transactions for deposit services");
+		
+	}
+}

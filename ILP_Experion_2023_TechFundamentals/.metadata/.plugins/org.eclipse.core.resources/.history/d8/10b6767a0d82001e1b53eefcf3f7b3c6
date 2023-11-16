@@ -1,0 +1,39 @@
+package com.ilp.servies;
+
+import java.util.Scanner;
+
+import com.ilp.entity.Account;
+import com.ilp.entity.Services;
+
+public class AccountService {
+
+	public static Account createAccount() {
+		// TODO Auto-generated method stub
+		
+		Scanner scanner = new Scanner(System.in);
+
+		System.out.println("Create a new Account\r\n" + "\r\n" + "****Accounts Available***********\r\n" + "\r\n"
+				+ "1. Savings Max Account\r\n" + "\r\n" + "2. Current Account\r\n" + "\r\n" + "3. Loan Account\r\n"
+				+ "\r\n" + "Enter Your choice:");
+
+		int choice = scanner.nextInt();
+//		switch(choice):
+//			case 1:
+//				Product product = new Product("AB100", "Product",);
+//				break;
+		
+		Services services = new Services("AB100", "Service1",324);
+		return null;
+	}
+
+	public static void displayAccounts(Account account) {
+		// TODO Auto-generated method stub
+
+	}
+
+	public static void transactionBill() {
+		// TODO Auto-generated method stub
+
+	}
+
+}

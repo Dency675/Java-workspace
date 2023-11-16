@@ -1,0 +1,17 @@
+package com.ilp.servies;
+
+import java.util.ArrayList;
+
+import com.ilp.entity.Account;
+import com.ilp.entity.Product;
+
+public class AccountService {
+
+	public static Account createAccount() {
+		// TODO Auto-generateproductd method stub
+		Product product = ProductService.createProduct();
+		
+		return new Account("ACC100", "233",product);
+	}
+
+}

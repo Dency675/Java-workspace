@@ -1,0 +1,12 @@
+package com.ilp.service;
+
+import com.ilp.entity.Customer;
+
+public class CustomerService {
+
+	public static Customer createCustomer() {
+		// TODO Auto-generated method stub
+		return customer;
+	}
+
+}

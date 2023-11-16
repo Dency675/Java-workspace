@@ -1,0 +1,16 @@
+package com.ilp.utility;
+
+public class SavingsAccountUtility {
+
+	public static void createSavingsAccount() {
+		Scanner 
+		
+		// TODO Auto-generated method stub
+		System.out.print("Enter the roi : ");
+		String roi  = scanner.nextLine();
+		SavingsAccount(accountNo, "Savings Account", openingBalance, roi);
+	}
+	
+
+
+}

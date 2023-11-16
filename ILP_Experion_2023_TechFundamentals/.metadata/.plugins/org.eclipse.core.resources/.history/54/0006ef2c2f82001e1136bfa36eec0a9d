@@ -1,0 +1,15 @@
+package com.ilp.servies;
+
+import java.util.ArrayList;
+
+import com.ilp.entity.Services;
+
+public class ServiceService {
+
+	public static Services createService() {
+		// TODO Auto-generated method stub
+
+		return new Services("S1", "service1", 32);
+	}
+
+}
