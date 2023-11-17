@@ -2,7 +2,6 @@ package com.ilp.utility;
 
 import java.util.ArrayList;
 import java.util.Scanner;
-
 import com.ilp.entity.Customer;
 import com.ilp.entity.Product;
 import com.ilp.entity.Services;
@@ -12,11 +11,9 @@ import com.ilp.servies.ProductConfiguration;
 public class AccountUtility {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
 
 		Scanner scanner = new Scanner(System.in);
 		
-		Customer customer = null;
 		ArrayList<Services> serviceList = new ArrayList<Services>();
 		ArrayList<Product> product = new ArrayList<Product>();
 		ArrayList<Customer> customerList =new ArrayList<Customer>();

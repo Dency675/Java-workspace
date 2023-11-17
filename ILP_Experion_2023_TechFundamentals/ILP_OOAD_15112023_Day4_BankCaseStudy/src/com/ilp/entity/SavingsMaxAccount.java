@@ -4,18 +4,18 @@ import java.util.ArrayList;
 
 public class SavingsMaxAccount extends Product {
 
+	private int minimumBalance = 1000;
+
 	public SavingsMaxAccount(String productCode, String productName, ArrayList<Services> serviceList) {
 		super(productCode, productName, serviceList);
-		// TODO Auto-generated constructor stub
-		
 	}
-	public static boolean minimumBalance(int amount) {
-		if(amount <1000) {
-			System.out.println("Minimum balance Rs. 1000 is required for Savings Max Account.");
-			return false;
-		}
-		else 
-			return true;
+
+	public int getMinimumBalance() {
+		return minimumBalance;
+	}
+
+	public void setMinimumBalance(int minimumBalance) {
+		this.minimumBalance = minimumBalance;
 	}
 
 }

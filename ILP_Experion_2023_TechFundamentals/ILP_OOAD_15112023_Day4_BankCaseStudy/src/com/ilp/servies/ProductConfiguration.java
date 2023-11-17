@@ -2,13 +2,11 @@ package com.ilp.servies;
 
 import java.util.ArrayList;
 import java.util.Scanner;
-
 import com.ilp.entity.CurrentAccount;
 import com.ilp.entity.LoanAccount;
 import com.ilp.entity.Product;
 import com.ilp.entity.SavingsMaxAccount;
 import com.ilp.entity.Services;
-import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
 public class ProductConfiguration {
@@ -25,6 +23,7 @@ public class ProductConfiguration {
 
 			System.out.print("Enter the Service Name : ");
 			String serviceName = scanner.next();
+			
 			System.out.print("Enter the Service rate : ");
 			double rate = scanner.nextDouble();
 
@@ -39,10 +38,8 @@ public class ProductConfiguration {
 	}
 
 	public static ArrayList<Product> createProduct(ArrayList<Services> serviceList, ArrayList<Product> ProductList) {
-		Product product = null;
+		
 		Services services = null;
-
-//		ArrayList<Product> ProductList = new ArrayList<Product>();
 
 		Scanner scanner = new Scanner(System.in);
 
@@ -51,13 +48,9 @@ public class ProductConfiguration {
 
 			ArrayList<Services> serviceProductList = new ArrayList<Services>();
 			System.out.print("Enter the Product code : ");
-//			scanner.next();
 			String productCode = scanner.next();
-//			scanner.next();
 			System.out.print("Enter the Product Name : ");
-//			
 			String productName = scanner.next();
-
 
 			services = new Services("001", "Deposit money", 0.05);
 			serviceProductList.add(services);

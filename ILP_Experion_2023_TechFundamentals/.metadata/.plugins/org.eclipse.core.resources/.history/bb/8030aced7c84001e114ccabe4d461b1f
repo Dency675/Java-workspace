@@ -1,0 +1,648 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<com.yattasolutions.uml.diagrams.classifier:ClassDiagram xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:com.yattasolutions.uml.diagrams.classifier="http://ns.yatta-solutions.com/umllab/diagrams/classifier/1.1.0" xmi:id="_AGfUEIRiEe6rLcpQmJvx7w">
+  <modelElement href="ILP_OOAD_15112023_Day4_BankCaseStudy.uml#_JdsUAIRiEe6rLcpQmJvx7w"/>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_JrCMcIRiEe6rLcpQmJvx7w" sourceAnchor="519.0,59.0" targetAnchor="224.0,137.0" target="_JrDakIRiEe6rLcpQmJvx7w" source="_JsXpMIRiEe6rLcpQmJvx7w">
+    <modelElement href="ILP_OOAD_15112023_Day4_BankCaseStudy.uml#_JixBQIRiEe6rLcpQmJvx7w"/>
+    <bendpoints xmi:id="_Jy9ZYoRiEe6rLcpQmJvx7w" sourceX="310" targetY="114"/>
+    <nameVisual xmi:id="_JrCzgIRiEe6rLcpQmJvx7w" text="">
+      <visualProperties xmi:id="_Jy-ngIRiEe6rLcpQmJvx7w" position="-268.9870356360159,-3.2743794207071346"/>
+    </nameVisual>
+    <sourceRole xmi:id="_JrCzgYRiEe6rLcpQmJvx7w" aggregationKind="NONE" name="product" navigable="true">
+      <modelElement href="ILP_OOAD_15112023_Day4_BankCaseStudy.uml#_JiTuQIRiEe6rLcpQmJvx7w"/>
+      <visualProperties xmi:id="_Jy-AcoRiEe6rLcpQmJvx7w" position="16.17024552812819,-12.626327431757147"/>
+      <visibility xmi:id="_JrCzgoRiEe6rLcpQmJvx7w" label="+"/>
+      <cardinality xmi:id="_JrCzg4RiEe6rLcpQmJvx7w" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_JrCzhIRiEe6rLcpQmJvx7w" aggregationKind="NONE" name="">
+      <modelElement href="ILP_OOAD_15112023_Day4_BankCaseStudy.uml#_JixoUIRiEe6rLcpQmJvx7w"/>
+      <visualProperties xmi:id="_Jy-ngYRiEe6rLcpQmJvx7w" position="-263.9186962208671,100.60358111445231"/>
+      <visibility xmi:id="_JrCzhYRiEe6rLcpQmJvx7w" label="+"/>
+      <cardinality xmi:id="_JrCzhoRiEe6rLcpQmJvx7w" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:GeneralizationVisual" xmi:id="_JsAc0IRiEe6rLcpQmJvx7w" sourceAnchor="606.0,39.0" targetAnchor="0.0,59.0" superClass="_JsXpMIRiEe6rLcpQmJvx7w" subClass="_JsFVUIRiEe6rLcpQmJvx7w">
+    <modelElement href="ILP_OOAD_15112023_Day4_BankCaseStudy.uml#_JhhrIIRiEe6rLcpQmJvx7w"/>
+    <bendpoints xmi:id="_Jy8yUIRiEe6rLcpQmJvx7w" sourceX="40" targetX="-35" targetY="30"/>
+    <bendpoints xmi:id="_Jy8yUYRiEe6rLcpQmJvx7w" sourceX="40" sourceY="-30" targetX="-35"/>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_JsBq8IRiEe6rLcpQmJvx7w" source="_JsXpMIRiEe6rLcpQmJvx7w">
+    <modelElement href="ILP_OOAD_15112023_Day4_BankCaseStudy.uml#_Ji0roYRiEe6rLcpQmJvx7w"/>
+    <stereotypes xmi:id="_JsDgI4RiEe6rLcpQmJvx7w" name="Reference">
+      <modelElement href="ILP_OOAD_15112023_Day4_BankCaseStudy.uml#_Ji1SsIRiEe6rLcpQmJvx7w"/>
+    </stereotypes>
+    <nameVisual xmi:id="_JsDgIIRiEe6rLcpQmJvx7w" text=""/>
+    <sourceRole xmi:id="_JsDgIYRiEe6rLcpQmJvx7w" aggregationKind="NONE" name="">
+      <modelElement href="ILP_OOAD_15112023_Day4_BankCaseStudy.uml#_Ji0rooRiEe6rLcpQmJvx7w"/>
+      <visibility xmi:id="_JsEHMYRiEe6rLcpQmJvx7w" label="+"/>
+      <cardinality xmi:id="_JsEHMIRiEe6rLcpQmJvx7w" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_JsDgIoRiEe6rLcpQmJvx7w" aggregationKind="NONE" name="serviceList" navigable="true">
+      <modelElement href="ILP_OOAD_15112023_Day4_BankCaseStudy.uml#_JiWxkoRiEe6rLcpQmJvx7w"/>
+      <visibility xmi:id="_JsEHM4RiEe6rLcpQmJvx7w" label="+"/>
+      <cardinality xmi:id="_JsEHMoRiEe6rLcpQmJvx7w" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_JsIYoIRiEe6rLcpQmJvx7w" source="_JsMDAIRiEe6rLcpQmJvx7w">
+    <modelElement href="ILP_OOAD_15112023_Day4_BankCaseStudy.uml#_Ji0EkIRiEe6rLcpQmJvx7w"/>
+    <stereotypes xmi:id="_JsKN0oRiEe6rLcpQmJvx7w" name="Reference">
+      <modelElement href="ILP_OOAD_15112023_Day4_BankCaseStudy.uml#_Ji0roIRiEe6rLcpQmJvx7w"/>
+    </stereotypes>
+    <nameVisual xmi:id="_JsJmwIRiEe6rLcpQmJvx7w" text=""/>
+    <sourceRole xmi:id="_JsKN0IRiEe6rLcpQmJvx7w" aggregationKind="NONE" name="">
+      <modelElement href="ILP_OOAD_15112023_Day4_BankCaseStudy.uml#_Ji0EkYRiEe6rLcpQmJvx7w"/>
+      <visibility xmi:id="_JsK04YRiEe6rLcpQmJvx7w" label="+"/>
+      <cardinality xmi:id="_JsK04IRiEe6rLcpQmJvx7w" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_JsKN0YRiEe6rLcpQmJvx7w" aggregationKind="NONE" name="accountList" navigable="true">
+      <modelElement href="ILP_OOAD_15112023_Day4_BankCaseStudy.uml#_JiU8YYRiEe6rLcpQmJvx7w"/>
+      <stereotypes xmi:id="_RwZUkIRjEe6rLcpQmJvx7w" name="Generics"/>
+      <stereotypes xmi:id="_S671EIRjEe6rLcpQmJvx7w" name="Generics"/>
+      <visibility xmi:id="_JsK044RiEe6rLcpQmJvx7w" label="+"/>
+      <cardinality xmi:id="_JsK04oRiEe6rLcpQmJvx7w" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:GeneralizationVisual" xmi:id="_JsTXwIRiEe6rLcpQmJvx7w" sourceAnchor="578.0,27.0" targetAnchor="0.0,59.0" superClass="_JsXpMIRiEe6rLcpQmJvx7w" subClass="_JsUl4IRiEe6rLcpQmJvx7w">
+    <modelElement href="ILP_OOAD_15112023_Day4_BankCaseStudy.uml#_JhkHYIRiEe6rLcpQmJvx7w"/>
+    <bendpoints xmi:id="_Jy9ZYIRiEe6rLcpQmJvx7w" sourceX="81" targetX="-35" targetY="331"/>
+    <bendpoints xmi:id="_Jy9ZYYRiEe6rLcpQmJvx7w" sourceX="81" sourceY="-331" targetX="-35"/>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:GeneralizationVisual" xmi:id="_JssZUIRiEe6rLcpQmJvx7w" sourceAnchor="652.0,36.0" targetAnchor="0.0,59.0" superClass="_JsXpMIRiEe6rLcpQmJvx7w" subClass="_JsuOgIRiEe6rLcpQmJvx7w">
+    <modelElement href="ILP_OOAD_15112023_Day4_BankCaseStudy.uml#_Jhl8kIRiEe6rLcpQmJvx7w"/>
+    <bendpoints xmi:id="_Jy-AcIRiEe6rLcpQmJvx7w" sourceX="30" targetX="-35" targetY="489"/>
+    <bendpoints xmi:id="_Jy-AcYRiEe6rLcpQmJvx7w" sourceX="30" sourceY="-489" targetX="-35"/>
+  </edges>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_JsFVUIRiEe6rLcpQmJvx7w" name="CurrentAccount" generalizations="_JsAc0IRiEe6rLcpQmJvx7w">
+    <modelElement href="ILP_OOAD_15112023_Day4_BankCaseStudy.uml#_Je508IRiEe6rLcpQmJvx7w"/>
+    <visualProperties xmi:id="_JsFVUYRiEe6rLcpQmJvx7w" position="-1059.0,390.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_JsFVUoRiEe6rLcpQmJvx7w" label="+"/>
+    <operations xmi:id="_JsFVU4RiEe6rLcpQmJvx7w" name="CurrentAccount">
+      <modelElement href="ILP_OOAD_15112023_Day4_BankCaseStudy.uml#_Jhyw4IRiEe6rLcpQmJvx7w"/>
+      <keywords xmi:id="_JsFVVIRiEe6rLcpQmJvx7w" keyword="create"/>
+      <visibility xmi:id="_JsFVVYRiEe6rLcpQmJvx7w" label="+"/>
+      <cardinality xmi:id="_JsFVVoRiEe6rLcpQmJvx7w" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_JsFVV4RiEe6rLcpQmJvx7w">
+        <modelElement href="ILP_OOAD_15112023_Day4_BankCaseStudy.uml#_JhzX9YRiEe6rLcpQmJvx7w"/>
+        <type xmi:id="_JsFVWIRiEe6rLcpQmJvx7w" name="CurrentAccount">
+          <modelElement href="ILP_OOAD_15112023_Day4_BankCaseStudy.uml#_Je508IRiEe6rLcpQmJvx7w"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_JsFVWYRiEe6rLcpQmJvx7w" name="productCode">
+        <modelElement href="ILP_OOAD_15112023_Day4_BankCaseStudy.uml#_JhzX8IRiEe6rLcpQmJvx7w"/>
+        <cardinality xmi:id="_JsFVWoRiEe6rLcpQmJvx7w" label="1" max="1" min="1"/>
+        <type xmi:id="_JsFVW4RiEe6rLcpQmJvx7w" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_JsFVXIRiEe6rLcpQmJvx7w" name="productName">
+        <modelElement href="ILP_OOAD_15112023_Day4_BankCaseStudy.uml#_JhzX8YRiEe6rLcpQmJvx7w"/>
+        <cardinality xmi:id="_JsFVXYRiEe6rLcpQmJvx7w" label="1" max="1" min="1"/>
+        <type xmi:id="_JsFVXoRiEe6rLcpQmJvx7w" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_JsFVX4RiEe6rLcpQmJvx7w" name="serviceList">
+        <modelElement href="ILP_OOAD_15112023_Day4_BankCaseStudy.uml#_JhzX8oRiEe6rLcpQmJvx7w"/>
+        <cardinality xmi:id="_JsFVYIRiEe6rLcpQmJvx7w" label="1" max="1" min="1"/>
+        <type xmi:id="_JsFVYYRiEe6rLcpQmJvx7w" name="ArrayList">
+          <modelElement href="ILP_OOAD_15112023_Day4_BankCaseStudy.uml#_JhZIQIRiEe6rLcpQmJvx7w"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_JsUl4IRiEe6rLcpQmJvx7w" name="LoanAccount" generalizations="_JsTXwIRiEe6rLcpQmJvx7w">
+    <modelElement href="ILP_OOAD_15112023_Day4_BankCaseStudy.uml#_JfBJsIRiEe6rLcpQmJvx7w"/>
+    <visualProperties xmi:id="_JsUl4YRiEe6rLcpQmJvx7w" position="-1072.0,703.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_JsUl4oRiEe6rLcpQmJvx7w" label="+"/>
+    <operations xmi:id="_JsUl44RiEe6rLcpQmJvx7w" name="LoanAccount">
+      <modelElement href="ILP_OOAD_15112023_Day4_BankCaseStudy.uml#_Jh4QcIRiEe6rLcpQmJvx7w"/>
+      <keywords xmi:id="_JsUl5IRiEe6rLcpQmJvx7w" keyword="create"/>
+      <visibility xmi:id="_JsUl5YRiEe6rLcpQmJvx7w" label="+"/>
+      <cardinality xmi:id="_JsUl5oRiEe6rLcpQmJvx7w" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_JsUl54RiEe6rLcpQmJvx7w">
+        <modelElement href="ILP_OOAD_15112023_Day4_BankCaseStudy.uml#_Jh43hIRiEe6rLcpQmJvx7w"/>
+        <type xmi:id="_JsUl6IRiEe6rLcpQmJvx7w" name="LoanAccount">
+          <modelElement href="ILP_OOAD_15112023_Day4_BankCaseStudy.uml#_JfBJsIRiEe6rLcpQmJvx7w"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_JsUl6YRiEe6rLcpQmJvx7w" name="productCode">
+        <modelElement href="ILP_OOAD_15112023_Day4_BankCaseStudy.uml#_Jh4QcYRiEe6rLcpQmJvx7w"/>
+        <cardinality xmi:id="_JsUl6oRiEe6rLcpQmJvx7w" label="1" max="1" min="1"/>
+        <type xmi:id="_JsUl64RiEe6rLcpQmJvx7w" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_JsUl7IRiEe6rLcpQmJvx7w" name="productName">
+        <modelElement href="ILP_OOAD_15112023_Day4_BankCaseStudy.uml#_Jh43gIRiEe6rLcpQmJvx7w"/>
+        <cardinality xmi:id="_JsUl7YRiEe6rLcpQmJvx7w" label="1" max="1" min="1"/>
+        <type xmi:id="_JsUl7oRiEe6rLcpQmJvx7w" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_JsUl74RiEe6rLcpQmJvx7w" name="serviceList">
+        <modelElement href="ILP_OOAD_15112023_Day4_BankCaseStudy.uml#_Jh43gYRiEe6rLcpQmJvx7w"/>
+        <cardinality xmi:id="_JsUl8IRiEe6rLcpQmJvx7w" label="1" max="1" min="1"/>
+        <type xmi:id="_JsUl8YRiEe6rLcpQmJvx7w" name="ArrayList">
+          <modelElement href="ILP_OOAD_15112023_Day4_BankCaseStudy.uml#_JhZIQIRiEe6rLcpQmJvx7w"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_JsuOgIRiEe6rLcpQmJvx7w" name="SavingsMaxAccount" generalizations="_JssZUIRiEe6rLcpQmJvx7w">
+    <modelElement href="ILP_OOAD_15112023_Day4_BankCaseStudy.uml#_JfJFgIRiEe6rLcpQmJvx7w"/>
+    <visualProperties xmi:id="_JsuOgYRiEe6rLcpQmJvx7w" position="-1095.0,852.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_JsuOgoRiEe6rLcpQmJvx7w" label="+"/>
+    <operations xmi:id="_JsuOg4RiEe6rLcpQmJvx7w" name="minimumBalance" staticOperation="true">
+      <modelElement href="ILP_OOAD_15112023_Day4_BankCaseStudy.uml#_JfKToIRiEe6rLcpQmJvx7w"/>
+      <visibility xmi:id="_JsuOhIRiEe6rLcpQmJvx7w" label="+"/>
+      <cardinality xmi:id="_JsuOhYRiEe6rLcpQmJvx7w" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_JsuOhoRiEe6rLcpQmJvx7w">
+        <modelElement href="ILP_OOAD_15112023_Day4_BankCaseStudy.uml#_JfK6sYRiEe6rLcpQmJvx7w"/>
+        <type xmi:id="_JsuOh4RiEe6rLcpQmJvx7w" name="boolean">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_JsuOiIRiEe6rLcpQmJvx7w" name="amount">
+        <modelElement href="ILP_OOAD_15112023_Day4_BankCaseStudy.uml#_JfK6sIRiEe6rLcpQmJvx7w"/>
+        <cardinality xmi:id="_JsuOiYRiEe6rLcpQmJvx7w" label="1" max="1" min="1"/>
+        <type xmi:id="_JsuOioRiEe6rLcpQmJvx7w" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_JsuOi4RiEe6rLcpQmJvx7w" name="SavingsMaxAccount">
+      <modelElement href="ILP_OOAD_15112023_Day4_BankCaseStudy.uml#_Jh9I8IRiEe6rLcpQmJvx7w"/>
+      <keywords xmi:id="_JsuOjIRiEe6rLcpQmJvx7w" keyword="create"/>
+      <visibility xmi:id="_JsuOjYRiEe6rLcpQmJvx7w" label="+"/>
+      <cardinality xmi:id="_JsuOjoRiEe6rLcpQmJvx7w" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_JsuOj4RiEe6rLcpQmJvx7w">
+        <modelElement href="ILP_OOAD_15112023_Day4_BankCaseStudy.uml#_Jh9wAoRiEe6rLcpQmJvx7w"/>
+        <type xmi:id="_JsuOkIRiEe6rLcpQmJvx7w" name="SavingsMaxAccount">
+          <modelElement href="ILP_OOAD_15112023_Day4_BankCaseStudy.uml#_JfJFgIRiEe6rLcpQmJvx7w"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_JsuOkYRiEe6rLcpQmJvx7w" name="productCode">
+        <modelElement href="ILP_OOAD_15112023_Day4_BankCaseStudy.uml#_Jh9I8YRiEe6rLcpQmJvx7w"/>
+        <cardinality xmi:id="_JsuOkoRiEe6rLcpQmJvx7w" label="1" max="1" min="1"/>
+        <type xmi:id="_JsuOk4RiEe6rLcpQmJvx7w" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_JsuOlIRiEe6rLcpQmJvx7w" name="productName">
+        <modelElement href="ILP_OOAD_15112023_Day4_BankCaseStudy.uml#_Jh9I8oRiEe6rLcpQmJvx7w"/>
+        <cardinality xmi:id="_JsuOlYRiEe6rLcpQmJvx7w" label="1" max="1" min="1"/>
+        <type xmi:id="_JsuOloRiEe6rLcpQmJvx7w" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_JsuOl4RiEe6rLcpQmJvx7w" name="serviceList">
+        <modelElement href="ILP_OOAD_15112023_Day4_BankCaseStudy.uml#_Jh9I84RiEe6rLcpQmJvx7w"/>
+        <cardinality xmi:id="_JsuOmIRiEe6rLcpQmJvx7w" label="1" max="1" min="1"/>
+        <type xmi:id="_JsuOmYRiEe6rLcpQmJvx7w" name="ArrayList">
+          <modelElement href="ILP_OOAD_15112023_Day4_BankCaseStudy.uml#_JhZIQIRiEe6rLcpQmJvx7w"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_Jsyf8IRiEe6rLcpQmJvx7w" name="Services">
+    <modelElement href="ILP_OOAD_15112023_Day4_BankCaseStudy.uml#_JfMv4IRiEe6rLcpQmJvx7w"/>
+    <visualProperties xmi:id="_Jsyf8YRiEe6rLcpQmJvx7w" position="-1002.0,999.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_Jsyf8oRiEe6rLcpQmJvx7w" label="+"/>
+    <attributes xmi:id="_Jsyf84RiEe6rLcpQmJvx7w" name="serviceCode">
+      <modelElement href="ILP_OOAD_15112023_Day4_BankCaseStudy.uml#_JiYmwIRiEe6rLcpQmJvx7w"/>
+      <visibility xmi:id="_Jsyf9IRiEe6rLcpQmJvx7w" label="+"/>
+      <cardinality xmi:id="_Jsyf9YRiEe6rLcpQmJvx7w" label="1" max="1" min="1"/>
+      <type xmi:id="_Jsyf9oRiEe6rLcpQmJvx7w" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_Jsyf94RiEe6rLcpQmJvx7w" name="serviceName">
+      <modelElement href="ILP_OOAD_15112023_Day4_BankCaseStudy.uml#_JiZN0IRiEe6rLcpQmJvx7w"/>
+      <visibility xmi:id="_Jsyf-IRiEe6rLcpQmJvx7w" label="+"/>
+      <cardinality xmi:id="_Jsyf-YRiEe6rLcpQmJvx7w" label="1" max="1" min="1"/>
+      <type xmi:id="_Jsyf-oRiEe6rLcpQmJvx7w" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_Jsyf-4RiEe6rLcpQmJvx7w" name="rate">
+      <modelElement href="ILP_OOAD_15112023_Day4_BankCaseStudy.uml#_JiZN0YRiEe6rLcpQmJvx7w"/>
+      <visibility xmi:id="_Jsyf_IRiEe6rLcpQmJvx7w" label="+"/>
+      <cardinality xmi:id="_Jsyf_YRiEe6rLcpQmJvx7w" label="1" max="1" min="1"/>
+      <type xmi:id="_Jsyf_oRiEe6rLcpQmJvx7w" name="double">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_Jsyf_4RiEe6rLcpQmJvx7w" name="Services">
+      <modelElement href="ILP_OOAD_15112023_Day4_BankCaseStudy.uml#_JfOlEIRiEe6rLcpQmJvx7w"/>
+      <keywords xmi:id="_JsygAIRiEe6rLcpQmJvx7w" keyword="create"/>
+      <visibility xmi:id="_JsygAYRiEe6rLcpQmJvx7w" label="+"/>
+      <cardinality xmi:id="_JsygAoRiEe6rLcpQmJvx7w" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_JsygA4RiEe6rLcpQmJvx7w">
+        <modelElement href="ILP_OOAD_15112023_Day4_BankCaseStudy.uml#_JfPMIoRiEe6rLcpQmJvx7w"/>
+        <type xmi:id="_JsygBIRiEe6rLcpQmJvx7w" name="Services">
+          <modelElement href="ILP_OOAD_15112023_Day4_BankCaseStudy.uml#_JfMv4IRiEe6rLcpQmJvx7w"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_JsygBYRiEe6rLcpQmJvx7w" name="serviceCode">
+        <modelElement href="ILP_OOAD_15112023_Day4_BankCaseStudy.uml#_JfOlEYRiEe6rLcpQmJvx7w"/>
+        <cardinality xmi:id="_JsygBoRiEe6rLcpQmJvx7w" label="1" max="1" min="1"/>
+        <type xmi:id="_JsygB4RiEe6rLcpQmJvx7w" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_JszHAIRiEe6rLcpQmJvx7w" name="serviceName">
+        <modelElement href="ILP_OOAD_15112023_Day4_BankCaseStudy.uml#_JfOlEoRiEe6rLcpQmJvx7w"/>
+        <cardinality xmi:id="_JszHAYRiEe6rLcpQmJvx7w" label="1" max="1" min="1"/>
+        <type xmi:id="_JszHAoRiEe6rLcpQmJvx7w" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_JszHA4RiEe6rLcpQmJvx7w" name="rate">
+        <modelElement href="ILP_OOAD_15112023_Day4_BankCaseStudy.uml#_JfOlE4RiEe6rLcpQmJvx7w"/>
+        <cardinality xmi:id="_JszHBIRiEe6rLcpQmJvx7w" label="1" max="1" min="1"/>
+        <type xmi:id="_JszHBYRiEe6rLcpQmJvx7w" name="double">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_Js9fEIRiEe6rLcpQmJvx7w" name="ProductConfiguration">
+    <modelElement href="ILP_OOAD_15112023_Day4_BankCaseStudy.uml#_JfUrsIRiEe6rLcpQmJvx7w"/>
+    <visualProperties xmi:id="_Js9fEYRiEe6rLcpQmJvx7w" position="-1598.0,704.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_Js9fEoRiEe6rLcpQmJvx7w" label="+"/>
+    <operations xmi:id="_Js9fE4RiEe6rLcpQmJvx7w" name="createSevices" staticOperation="true">
+      <modelElement href="ILP_OOAD_15112023_Day4_BankCaseStudy.uml#_JiJWMIRiEe6rLcpQmJvx7w"/>
+      <stereotypes xmi:id="_Js9fFIRiEe6rLcpQmJvx7w" name="Generics">
+        <modelElement href="ILP_OOAD_15112023_Day4_BankCaseStudy.uml#_JiLLYIRiEe6rLcpQmJvx7w"/>
+      </stereotypes>
+      <visibility xmi:id="_Js9fFYRiEe6rLcpQmJvx7w" label="+"/>
+      <cardinality xmi:id="_Js9fFoRiEe6rLcpQmJvx7w" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_Js9fF4RiEe6rLcpQmJvx7w">
+        <modelElement href="ILP_OOAD_15112023_Day4_BankCaseStudy.uml#_JiLLYYRiEe6rLcpQmJvx7w"/>
+        <type xmi:id="_Js9fGIRiEe6rLcpQmJvx7w" name="ArrayList">
+          <modelElement href="ILP_OOAD_15112023_Day4_BankCaseStudy.uml#_JhZIQIRiEe6rLcpQmJvx7w"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_Js9fGYRiEe6rLcpQmJvx7w" name="serviceList">
+        <modelElement href="ILP_OOAD_15112023_Day4_BankCaseStudy.uml#_JiJWMYRiEe6rLcpQmJvx7w"/>
+        <cardinality xmi:id="_Js9fGoRiEe6rLcpQmJvx7w" label="1" max="1" min="1"/>
+        <type xmi:id="_Js9fG4RiEe6rLcpQmJvx7w" name="ArrayList">
+          <modelElement href="ILP_OOAD_15112023_Day4_BankCaseStudy.uml#_JhZIQIRiEe6rLcpQmJvx7w"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_Js9fHIRiEe6rLcpQmJvx7w" name="createProduct" staticOperation="true">
+      <modelElement href="ILP_OOAD_15112023_Day4_BankCaseStudy.uml#_JiNnoIRiEe6rLcpQmJvx7w"/>
+      <stereotypes xmi:id="_Js9fHYRiEe6rLcpQmJvx7w" name="Generics">
+        <modelElement href="ILP_OOAD_15112023_Day4_BankCaseStudy.uml#_JiO1wIRiEe6rLcpQmJvx7w"/>
+      </stereotypes>
+      <visibility xmi:id="_Js9fHoRiEe6rLcpQmJvx7w" label="+"/>
+      <cardinality xmi:id="_Js9fH4RiEe6rLcpQmJvx7w" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_Js9fIIRiEe6rLcpQmJvx7w">
+        <modelElement href="ILP_OOAD_15112023_Day4_BankCaseStudy.uml#_JiO1wYRiEe6rLcpQmJvx7w"/>
+        <type xmi:id="_Js9fIYRiEe6rLcpQmJvx7w" name="ArrayList">
+          <modelElement href="ILP_OOAD_15112023_Day4_BankCaseStudy.uml#_JhZIQIRiEe6rLcpQmJvx7w"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_Js9fIoRiEe6rLcpQmJvx7w" name="serviceList">
+        <modelElement href="ILP_OOAD_15112023_Day4_BankCaseStudy.uml#_JiNnoYRiEe6rLcpQmJvx7w"/>
+        <cardinality xmi:id="_Js9fI4RiEe6rLcpQmJvx7w" label="1" max="1" min="1"/>
+        <type xmi:id="_Js9fJIRiEe6rLcpQmJvx7w" name="ArrayList">
+          <modelElement href="ILP_OOAD_15112023_Day4_BankCaseStudy.uml#_JhZIQIRiEe6rLcpQmJvx7w"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_Js9fJYRiEe6rLcpQmJvx7w" name="ProductList">
+        <modelElement href="ILP_OOAD_15112023_Day4_BankCaseStudy.uml#_JiNnooRiEe6rLcpQmJvx7w"/>
+        <cardinality xmi:id="_Js9fJoRiEe6rLcpQmJvx7w" label="1" max="1" min="1"/>
+        <type xmi:id="_Js9fJ4RiEe6rLcpQmJvx7w" name="ArrayList">
+          <modelElement href="ILP_OOAD_15112023_Day4_BankCaseStudy.uml#_JhZIQIRiEe6rLcpQmJvx7w"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_JsXpMIRiEe6rLcpQmJvx7w" name="Product" abstractClass="true" associationsOut="_JrCMcIRiEe6rLcpQmJvx7w _JsBq8IRiEe6rLcpQmJvx7w" subclassedBy="_JsAc0IRiEe6rLcpQmJvx7w _JsTXwIRiEe6rLcpQmJvx7w _JssZUIRiEe6rLcpQmJvx7w">
+    <modelElement href="ILP_OOAD_15112023_Day4_BankCaseStudy.uml#_JfE0EIRiEe6rLcpQmJvx7w"/>
+    <visualProperties xmi:id="_JsXpMYRiEe6rLcpQmJvx7w" position="-378.0,340.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_JsXpMoRiEe6rLcpQmJvx7w" label="+"/>
+    <attributes xmi:id="_JsXpM4RiEe6rLcpQmJvx7w" name="productCode">
+      <modelElement href="ILP_OOAD_15112023_Day4_BankCaseStudy.uml#_JiWxkIRiEe6rLcpQmJvx7w"/>
+      <visibility xmi:id="_JsXpNIRiEe6rLcpQmJvx7w" label="+"/>
+      <cardinality xmi:id="_JsXpNYRiEe6rLcpQmJvx7w" label="1" max="1" min="1"/>
+      <type xmi:id="_JsXpNoRiEe6rLcpQmJvx7w" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_JsXpN4RiEe6rLcpQmJvx7w" name="productName">
+      <modelElement href="ILP_OOAD_15112023_Day4_BankCaseStudy.uml#_JiWxkYRiEe6rLcpQmJvx7w"/>
+      <visibility xmi:id="_JsXpOIRiEe6rLcpQmJvx7w" label="+"/>
+      <cardinality xmi:id="_JsXpOYRiEe6rLcpQmJvx7w" label="1" max="1" min="1"/>
+      <type xmi:id="_JsXpOoRiEe6rLcpQmJvx7w" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_JsXpO4RiEe6rLcpQmJvx7w" name="serviceList">
+      <modelElement href="ILP_OOAD_15112023_Day4_BankCaseStudy.uml#_JiWxkoRiEe6rLcpQmJvx7w"/>
+      <stereotypes xmi:id="_JsXpPIRiEe6rLcpQmJvx7w" name="Generics">
+        <modelElement href="ILP_OOAD_15112023_Day4_BankCaseStudy.uml#_JiX_sIRiEe6rLcpQmJvx7w"/>
+      </stereotypes>
+      <visibility xmi:id="_JsXpPYRiEe6rLcpQmJvx7w" label="+"/>
+      <cardinality xmi:id="_JsXpPoRiEe6rLcpQmJvx7w" label="1" max="1" min="1"/>
+      <type xmi:id="_JsXpP4RiEe6rLcpQmJvx7w" name="ArrayList">
+        <modelElement href="ILP_OOAD_15112023_Day4_BankCaseStudy.uml#_JhZIQIRiEe6rLcpQmJvx7w"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_JsXpQIRiEe6rLcpQmJvx7w" name="Product">
+      <modelElement href="ILP_OOAD_15112023_Day4_BankCaseStudy.uml#_Jh6ssIRiEe6rLcpQmJvx7w"/>
+      <keywords xmi:id="_JsXpQYRiEe6rLcpQmJvx7w" keyword="create"/>
+      <visibility xmi:id="_JsXpQoRiEe6rLcpQmJvx7w" label="+"/>
+      <cardinality xmi:id="_JsXpQ4RiEe6rLcpQmJvx7w" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_JsXpRIRiEe6rLcpQmJvx7w">
+        <modelElement href="ILP_OOAD_15112023_Day4_BankCaseStudy.uml#_Jh7TwoRiEe6rLcpQmJvx7w"/>
+        <type xmi:id="_JsXpRYRiEe6rLcpQmJvx7w" name="Product">
+          <modelElement href="ILP_OOAD_15112023_Day4_BankCaseStudy.uml#_JfE0EIRiEe6rLcpQmJvx7w"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_JsXpRoRiEe6rLcpQmJvx7w" name="productCode">
+        <modelElement href="ILP_OOAD_15112023_Day4_BankCaseStudy.uml#_Jh6ssYRiEe6rLcpQmJvx7w"/>
+        <cardinality xmi:id="_JsXpR4RiEe6rLcpQmJvx7w" label="1" max="1" min="1"/>
+        <type xmi:id="_JsXpSIRiEe6rLcpQmJvx7w" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_JsXpSYRiEe6rLcpQmJvx7w" name="productName">
+        <modelElement href="ILP_OOAD_15112023_Day4_BankCaseStudy.uml#_Jh6ssoRiEe6rLcpQmJvx7w"/>
+        <cardinality xmi:id="_JsXpSoRiEe6rLcpQmJvx7w" label="1" max="1" min="1"/>
+        <type xmi:id="_JsXpS4RiEe6rLcpQmJvx7w" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_JsXpTIRiEe6rLcpQmJvx7w" name="serviceList">
+        <modelElement href="ILP_OOAD_15112023_Day4_BankCaseStudy.uml#_Jh6ss4RiEe6rLcpQmJvx7w"/>
+        <cardinality xmi:id="_JsXpTYRiEe6rLcpQmJvx7w" label="1" max="1" min="1"/>
+        <type xmi:id="_JsXpToRiEe6rLcpQmJvx7w" name="ArrayList">
+          <modelElement href="ILP_OOAD_15112023_Day4_BankCaseStudy.uml#_JhZIQIRiEe6rLcpQmJvx7w"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_JtBwgIRiEe6rLcpQmJvx7w" name="AccountUtility">
+    <modelElement href="ILP_OOAD_15112023_Day4_BankCaseStudy.uml#_JfXvAIRiEe6rLcpQmJvx7w"/>
+    <visualProperties xmi:id="_JtBwgYRiEe6rLcpQmJvx7w" position="-334.0,542.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_JtBwgoRiEe6rLcpQmJvx7w" label="+"/>
+    <operations xmi:id="_JtBwg4RiEe6rLcpQmJvx7w" name="main" staticOperation="true">
+      <modelElement href="ILP_OOAD_15112023_Day4_BankCaseStudy.uml#_JfYWEIRiEe6rLcpQmJvx7w"/>
+      <visibility xmi:id="_JtBwhIRiEe6rLcpQmJvx7w" label="+"/>
+      <cardinality xmi:id="_JtBwhYRiEe6rLcpQmJvx7w" label="1" max="1" min="1"/>
+      <parameters xmi:id="_JtBwhoRiEe6rLcpQmJvx7w" name="args">
+        <modelElement href="ILP_OOAD_15112023_Day4_BankCaseStudy.uml#_JfYWEYRiEe6rLcpQmJvx7w"/>
+        <cardinality xmi:id="_JtBwh4RiEe6rLcpQmJvx7w" label="1..*" max="-1" min="1"/>
+        <type xmi:id="_JtBwiIRiEe6rLcpQmJvx7w" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_JrDakIRiEe6rLcpQmJvx7w" name="Account" associationsIn="_JrCMcIRiEe6rLcpQmJvx7w">
+    <modelElement href="ILP_OOAD_15112023_Day4_BankCaseStudy.uml#_JehacIRiEe6rLcpQmJvx7w"/>
+    <visualProperties xmi:id="_JrDakYRiEe6rLcpQmJvx7w" position="227.0,148.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_JrDakoRiEe6rLcpQmJvx7w" label="+"/>
+    <attributes xmi:id="_JrDak4RiEe6rLcpQmJvx7w" name="accountNo">
+      <modelElement href="ILP_OOAD_15112023_Day4_BankCaseStudy.uml#_JiSgIIRiEe6rLcpQmJvx7w"/>
+      <visibility xmi:id="_JrDalIRiEe6rLcpQmJvx7w" label="+"/>
+      <cardinality xmi:id="_JrDalYRiEe6rLcpQmJvx7w" label="1" max="1" min="1"/>
+      <type xmi:id="_JrDaloRiEe6rLcpQmJvx7w" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_JrDal4RiEe6rLcpQmJvx7w" name="balance">
+      <modelElement href="ILP_OOAD_15112023_Day4_BankCaseStudy.uml#_JiTHMIRiEe6rLcpQmJvx7w"/>
+      <visibility xmi:id="_JrDamIRiEe6rLcpQmJvx7w" label="+"/>
+      <cardinality xmi:id="_JrDamYRiEe6rLcpQmJvx7w" label="1" max="1" min="1"/>
+      <type xmi:id="_JrDamoRiEe6rLcpQmJvx7w" name="int">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_JrDam4RiEe6rLcpQmJvx7w" name="product">
+      <modelElement href="ILP_OOAD_15112023_Day4_BankCaseStudy.uml#_JiTuQIRiEe6rLcpQmJvx7w"/>
+      <visibility xmi:id="_JrDanIRiEe6rLcpQmJvx7w" label="+"/>
+      <cardinality xmi:id="_JrDanYRiEe6rLcpQmJvx7w" label="1" max="1" min="1"/>
+      <type xmi:id="_JrDanoRiEe6rLcpQmJvx7w" name="Product">
+        <modelElement href="ILP_OOAD_15112023_Day4_BankCaseStudy.uml#_JfE0EIRiEe6rLcpQmJvx7w"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_JrDan4RiEe6rLcpQmJvx7w" name="deposit">
+      <modelElement href="ILP_OOAD_15112023_Day4_BankCaseStudy.uml#_Je1jgIRiEe6rLcpQmJvx7w"/>
+      <visibility xmi:id="_JrDaoIRiEe6rLcpQmJvx7w" label="+"/>
+      <cardinality xmi:id="_JrDaoYRiEe6rLcpQmJvx7w" label="1" max="1" min="1"/>
+      <parameters xmi:id="_JrDaooRiEe6rLcpQmJvx7w" name="depositAmount">
+        <modelElement href="ILP_OOAD_15112023_Day4_BankCaseStudy.uml#_Je1jgYRiEe6rLcpQmJvx7w"/>
+        <cardinality xmi:id="_JrDao4RiEe6rLcpQmJvx7w" label="1" max="1" min="1"/>
+        <type xmi:id="_JrDapIRiEe6rLcpQmJvx7w" name="double">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_JrDapYRiEe6rLcpQmJvx7w" name="withdraw">
+      <modelElement href="ILP_OOAD_15112023_Day4_BankCaseStudy.uml#_Je3YsIRiEe6rLcpQmJvx7w"/>
+      <visibility xmi:id="_JrDapoRiEe6rLcpQmJvx7w" label="+"/>
+      <cardinality xmi:id="_JrDap4RiEe6rLcpQmJvx7w" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_JrDaqIRiEe6rLcpQmJvx7w">
+        <modelElement href="ILP_OOAD_15112023_Day4_BankCaseStudy.uml#_Je3_wIRiEe6rLcpQmJvx7w"/>
+        <type xmi:id="_JrDaqYRiEe6rLcpQmJvx7w" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_JrDaqoRiEe6rLcpQmJvx7w" name="withdrawAmount">
+        <modelElement href="ILP_OOAD_15112023_Day4_BankCaseStudy.uml#_Je3YsYRiEe6rLcpQmJvx7w"/>
+        <cardinality xmi:id="_JrDaq4RiEe6rLcpQmJvx7w" label="1" max="1" min="1"/>
+        <type xmi:id="_JrDarIRiEe6rLcpQmJvx7w" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_JrDarYRiEe6rLcpQmJvx7w" name="Account">
+      <modelElement href="ILP_OOAD_15112023_Day4_BankCaseStudy.uml#_Jhf18IRiEe6rLcpQmJvx7w"/>
+      <keywords xmi:id="_JrDaroRiEe6rLcpQmJvx7w" keyword="create"/>
+      <visibility xmi:id="_JrDar4RiEe6rLcpQmJvx7w" label="+"/>
+      <cardinality xmi:id="_JrDasIRiEe6rLcpQmJvx7w" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_JrDasYRiEe6rLcpQmJvx7w">
+        <modelElement href="ILP_OOAD_15112023_Day4_BankCaseStudy.uml#_JhgdBIRiEe6rLcpQmJvx7w"/>
+        <type xmi:id="_JrDasoRiEe6rLcpQmJvx7w" name="Account">
+          <modelElement href="ILP_OOAD_15112023_Day4_BankCaseStudy.uml#_JehacIRiEe6rLcpQmJvx7w"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_JrDas4RiEe6rLcpQmJvx7w" name="accountNo">
+        <modelElement href="ILP_OOAD_15112023_Day4_BankCaseStudy.uml#_Jhf18YRiEe6rLcpQmJvx7w"/>
+        <cardinality xmi:id="_JrDatIRiEe6rLcpQmJvx7w" label="1" max="1" min="1"/>
+        <type xmi:id="_JrDatYRiEe6rLcpQmJvx7w" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_JrDatoRiEe6rLcpQmJvx7w" name="balance">
+        <modelElement href="ILP_OOAD_15112023_Day4_BankCaseStudy.uml#_JhgdAIRiEe6rLcpQmJvx7w"/>
+        <cardinality xmi:id="_JrDat4RiEe6rLcpQmJvx7w" label="1" max="1" min="1"/>
+        <type xmi:id="_JrDauIRiEe6rLcpQmJvx7w" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_JrDauYRiEe6rLcpQmJvx7w" name="product">
+        <modelElement href="ILP_OOAD_15112023_Day4_BankCaseStudy.uml#_JhgdAYRiEe6rLcpQmJvx7w"/>
+        <cardinality xmi:id="_JrDauoRiEe6rLcpQmJvx7w" label="1" max="1" min="1"/>
+        <type xmi:id="_JrDau4RiEe6rLcpQmJvx7w" name="Product">
+          <modelElement href="ILP_OOAD_15112023_Day4_BankCaseStudy.uml#_JfE0EIRiEe6rLcpQmJvx7w"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_JsMDAIRiEe6rLcpQmJvx7w" name="Customer" associationsOut="_JsIYoIRiEe6rLcpQmJvx7w">
+    <modelElement href="ILP_OOAD_15112023_Day4_BankCaseStudy.uml#_Je84QIRiEe6rLcpQmJvx7w"/>
+    <visualProperties xmi:id="_JsMDAYRiEe6rLcpQmJvx7w" position="12.0,508.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_JsMDAoRiEe6rLcpQmJvx7w" label="+"/>
+    <attributes xmi:id="_JsMDA4RiEe6rLcpQmJvx7w" name="customerCode">
+      <modelElement href="ILP_OOAD_15112023_Day4_BankCaseStudy.uml#_JiUVUIRiEe6rLcpQmJvx7w"/>
+      <visibility xmi:id="_JsMDBIRiEe6rLcpQmJvx7w" label="+"/>
+      <cardinality xmi:id="_JsMDBYRiEe6rLcpQmJvx7w" label="1" max="1" min="1"/>
+      <type xmi:id="_JsMDBoRiEe6rLcpQmJvx7w" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_JsMDB4RiEe6rLcpQmJvx7w" name="CustomerName">
+      <modelElement href="ILP_OOAD_15112023_Day4_BankCaseStudy.uml#_JiU8YIRiEe6rLcpQmJvx7w"/>
+      <visibility xmi:id="_JsMDCIRiEe6rLcpQmJvx7w" label="+"/>
+      <cardinality xmi:id="_JsMDCYRiEe6rLcpQmJvx7w" label="1" max="1" min="1"/>
+      <type xmi:id="_JsMDCoRiEe6rLcpQmJvx7w" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_JsMDC4RiEe6rLcpQmJvx7w" name="accountList">
+      <modelElement href="ILP_OOAD_15112023_Day4_BankCaseStudy.uml#_JiU8YYRiEe6rLcpQmJvx7w"/>
+      <stereotypes xmi:id="_JsMDDIRiEe6rLcpQmJvx7w" name="Generics">
+        <modelElement href="ILP_OOAD_15112023_Day4_BankCaseStudy.uml#_JiWKgIRiEe6rLcpQmJvx7w"/>
+      </stereotypes>
+      <visibility xmi:id="_JsMDDYRiEe6rLcpQmJvx7w" label="+"/>
+      <cardinality xmi:id="_JsMDDoRiEe6rLcpQmJvx7w" label="1" max="1" min="1"/>
+      <type xmi:id="_JsMDD4RiEe6rLcpQmJvx7w" name="ArrayList">
+        <modelElement href="ILP_OOAD_15112023_Day4_BankCaseStudy.uml#_JhZIQIRiEe6rLcpQmJvx7w"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_JsMDEIRiEe6rLcpQmJvx7w" name="Customer">
+      <modelElement href="ILP_OOAD_15112023_Day4_BankCaseStudy.uml#_Jh10MIRiEe6rLcpQmJvx7w"/>
+      <keywords xmi:id="_JsMDEYRiEe6rLcpQmJvx7w" keyword="create"/>
+      <visibility xmi:id="_JsMDEoRiEe6rLcpQmJvx7w" label="+"/>
+      <cardinality xmi:id="_JsMDE4RiEe6rLcpQmJvx7w" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_JsMDFIRiEe6rLcpQmJvx7w">
+        <modelElement href="ILP_OOAD_15112023_Day4_BankCaseStudy.uml#_Jh2bQ4RiEe6rLcpQmJvx7w"/>
+        <type xmi:id="_JsMDFYRiEe6rLcpQmJvx7w" name="Customer">
+          <modelElement href="ILP_OOAD_15112023_Day4_BankCaseStudy.uml#_Je84QIRiEe6rLcpQmJvx7w"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_JsMDFoRiEe6rLcpQmJvx7w" name="customerCode">
+        <modelElement href="ILP_OOAD_15112023_Day4_BankCaseStudy.uml#_Jh10MYRiEe6rLcpQmJvx7w"/>
+        <cardinality xmi:id="_JsMDF4RiEe6rLcpQmJvx7w" label="1" max="1" min="1"/>
+        <type xmi:id="_JsMDGIRiEe6rLcpQmJvx7w" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_JsMDGYRiEe6rLcpQmJvx7w" name="customerName">
+        <modelElement href="ILP_OOAD_15112023_Day4_BankCaseStudy.uml#_Jh10MoRiEe6rLcpQmJvx7w"/>
+        <cardinality xmi:id="_JsMDGoRiEe6rLcpQmJvx7w" label="1" max="1" min="1"/>
+        <type xmi:id="_JsMDG4RiEe6rLcpQmJvx7w" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_JsMDHIRiEe6rLcpQmJvx7w" name="accountList">
+        <modelElement href="ILP_OOAD_15112023_Day4_BankCaseStudy.uml#_Jh2bQIRiEe6rLcpQmJvx7w"/>
+        <cardinality xmi:id="_JsMDHYRiEe6rLcpQmJvx7w" label="1" max="1" min="1"/>
+        <type xmi:id="_JsMDHoRiEe6rLcpQmJvx7w" name="ArrayList">
+          <modelElement href="ILP_OOAD_15112023_Day4_BankCaseStudy.uml#_JhZIQIRiEe6rLcpQmJvx7w"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_Js3YcIRiEe6rLcpQmJvx7w" name="CustomerConfiguration">
+    <modelElement href="ILP_OOAD_15112023_Day4_BankCaseStudy.uml#_JfQaQIRiEe6rLcpQmJvx7w"/>
+    <visualProperties xmi:id="_Js3YcYRiEe6rLcpQmJvx7w" position="-1569.0,489.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_Js3YcoRiEe6rLcpQmJvx7w" label="+"/>
+    <operations xmi:id="_Js3Yc4RiEe6rLcpQmJvx7w" name="createAccount" staticOperation="true">
+      <modelElement href="ILP_OOAD_15112023_Day4_BankCaseStudy.uml#_Jh--IIRiEe6rLcpQmJvx7w"/>
+      <visibility xmi:id="_Js3YdIRiEe6rLcpQmJvx7w" label="+"/>
+      <cardinality xmi:id="_Js3YdYRiEe6rLcpQmJvx7w" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_Js3YdoRiEe6rLcpQmJvx7w">
+        <modelElement href="ILP_OOAD_15112023_Day4_BankCaseStudy.uml#_Jh--IoRiEe6rLcpQmJvx7w"/>
+        <type xmi:id="_Js3Yd4RiEe6rLcpQmJvx7w" name="Account">
+          <modelElement href="ILP_OOAD_15112023_Day4_BankCaseStudy.uml#_JehacIRiEe6rLcpQmJvx7w"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_Js3YeIRiEe6rLcpQmJvx7w" name="product">
+        <modelElement href="ILP_OOAD_15112023_Day4_BankCaseStudy.uml#_Jh--IYRiEe6rLcpQmJvx7w"/>
+        <cardinality xmi:id="_Js3YeYRiEe6rLcpQmJvx7w" label="1" max="1" min="1"/>
+        <type xmi:id="_Js3YeoRiEe6rLcpQmJvx7w" name="ArrayList">
+          <modelElement href="ILP_OOAD_15112023_Day4_BankCaseStudy.uml#_JhZIQIRiEe6rLcpQmJvx7w"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_Js3Ye4RiEe6rLcpQmJvx7w" name="createCustomer" staticOperation="true">
+      <modelElement href="ILP_OOAD_15112023_Day4_BankCaseStudy.uml#_JiAzUIRiEe6rLcpQmJvx7w"/>
+      <stereotypes xmi:id="_Js3YfIRiEe6rLcpQmJvx7w" name="Generics">
+        <modelElement href="ILP_OOAD_15112023_Day4_BankCaseStudy.uml#_JiCBcIRiEe6rLcpQmJvx7w"/>
+      </stereotypes>
+      <visibility xmi:id="_Js3YfYRiEe6rLcpQmJvx7w" label="+"/>
+      <cardinality xmi:id="_Js3YfoRiEe6rLcpQmJvx7w" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_Js3Yf4RiEe6rLcpQmJvx7w">
+        <modelElement href="ILP_OOAD_15112023_Day4_BankCaseStudy.uml#_JiCBcYRiEe6rLcpQmJvx7w"/>
+        <type xmi:id="_Js3YgIRiEe6rLcpQmJvx7w" name="ArrayList">
+          <modelElement href="ILP_OOAD_15112023_Day4_BankCaseStudy.uml#_JhZIQIRiEe6rLcpQmJvx7w"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_Js3YgYRiEe6rLcpQmJvx7w" name="product">
+        <modelElement href="ILP_OOAD_15112023_Day4_BankCaseStudy.uml#_JiAzUYRiEe6rLcpQmJvx7w"/>
+        <cardinality xmi:id="_Js3YgoRiEe6rLcpQmJvx7w" label="1" max="1" min="1"/>
+        <type xmi:id="_Js3Yg4RiEe6rLcpQmJvx7w" name="ArrayList">
+          <modelElement href="ILP_OOAD_15112023_Day4_BankCaseStudy.uml#_JhZIQIRiEe6rLcpQmJvx7w"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_Js3YhIRiEe6rLcpQmJvx7w" name="customerList">
+        <modelElement href="ILP_OOAD_15112023_Day4_BankCaseStudy.uml#_JiBaYIRiEe6rLcpQmJvx7w"/>
+        <cardinality xmi:id="_Js3YhYRiEe6rLcpQmJvx7w" label="1" max="1" min="1"/>
+        <type xmi:id="_Js3YhoRiEe6rLcpQmJvx7w" name="ArrayList">
+          <modelElement href="ILP_OOAD_15112023_Day4_BankCaseStudy.uml#_JhZIQIRiEe6rLcpQmJvx7w"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_Js3Yh4RiEe6rLcpQmJvx7w" name="displayCustomer" staticOperation="true">
+      <modelElement href="ILP_OOAD_15112023_Day4_BankCaseStudy.uml#_JiFEwIRiEe6rLcpQmJvx7w"/>
+      <visibility xmi:id="_Js3YiIRiEe6rLcpQmJvx7w" label="+"/>
+      <cardinality xmi:id="_Js3YiYRiEe6rLcpQmJvx7w" label="1" max="1" min="1"/>
+      <parameters xmi:id="_Js3YioRiEe6rLcpQmJvx7w" name="customerList">
+        <modelElement href="ILP_OOAD_15112023_Day4_BankCaseStudy.uml#_JiFEwYRiEe6rLcpQmJvx7w"/>
+        <cardinality xmi:id="_Js3Yi4RiEe6rLcpQmJvx7w" label="1" max="1" min="1"/>
+        <type xmi:id="_Js3YjIRiEe6rLcpQmJvx7w" name="ArrayList">
+          <modelElement href="ILP_OOAD_15112023_Day4_BankCaseStudy.uml#_JhZIQIRiEe6rLcpQmJvx7w"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_Js3YjYRiEe6rLcpQmJvx7w" name="transactionBill" staticOperation="true">
+      <modelElement href="ILP_OOAD_15112023_Day4_BankCaseStudy.uml#_JiGS4YRiEe6rLcpQmJvx7w"/>
+      <visibility xmi:id="_Js3YjoRiEe6rLcpQmJvx7w" label="+"/>
+      <cardinality xmi:id="_Js3Yj4RiEe6rLcpQmJvx7w" label="1" max="1" min="1"/>
+      <parameters xmi:id="_Js3YkIRiEe6rLcpQmJvx7w" name="customerList">
+        <modelElement href="ILP_OOAD_15112023_Day4_BankCaseStudy.uml#_JiGS4oRiEe6rLcpQmJvx7w"/>
+        <cardinality xmi:id="_Js3YkYRiEe6rLcpQmJvx7w" label="1" max="1" min="1"/>
+        <type xmi:id="_Js3YkoRiEe6rLcpQmJvx7w" name="ArrayList">
+          <modelElement href="ILP_OOAD_15112023_Day4_BankCaseStudy.uml#_JhZIQIRiEe6rLcpQmJvx7w"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_Js3Yk4RiEe6rLcpQmJvx7w" name="manageAccount" staticOperation="true">
+      <modelElement href="ILP_OOAD_15112023_Day4_BankCaseStudy.uml#_JiIIEIRiEe6rLcpQmJvx7w"/>
+      <visibility xmi:id="_Js3YlIRiEe6rLcpQmJvx7w" label="+"/>
+      <cardinality xmi:id="_Js3YlYRiEe6rLcpQmJvx7w" label="1" max="1" min="1"/>
+      <parameters xmi:id="_Js3YloRiEe6rLcpQmJvx7w" name="customerList">
+        <modelElement href="ILP_OOAD_15112023_Day4_BankCaseStudy.uml#_JiIIEYRiEe6rLcpQmJvx7w"/>
+        <cardinality xmi:id="_Js3Yl4RiEe6rLcpQmJvx7w" label="1" max="1" min="1"/>
+        <type xmi:id="_Js3YmIRiEe6rLcpQmJvx7w" name="ArrayList">
+          <modelElement href="ILP_OOAD_15112023_Day4_BankCaseStudy.uml#_JhZIQIRiEe6rLcpQmJvx7w"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+</com.yattasolutions.uml.diagrams.classifier:ClassDiagram>

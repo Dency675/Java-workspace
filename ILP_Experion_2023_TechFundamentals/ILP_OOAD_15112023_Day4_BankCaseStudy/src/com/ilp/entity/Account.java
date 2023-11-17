@@ -1,7 +1,5 @@
 package com.ilp.entity;
 
-import java.util.ArrayList;
-
 public class Account {
 	private String accountNo;
 	private int balance;
@@ -38,15 +36,11 @@ public class Account {
 	}
 
 	public void deposit(double depositAmount) {
-		// TODO Auto-generated method stub
 		this.balance += depositAmount;
 	}
 
 	public int withdraw(int withdrawAmount) {
-		// TODO Auto-generated method stub
 		this.balance -= withdrawAmount;
 		return balance;
 	}
-
-	
 }

@@ -6,7 +6,6 @@ public class CurrentAccount extends Product {
 
 	public CurrentAccount(String productCode, String productName, ArrayList<Services> serviceList) {
 		super(productCode, productName, serviceList);
-		// TODO Auto-generated constructor stub
 	}
 
 }

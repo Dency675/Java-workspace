@@ -23,7 +23,6 @@ public class CustomerConfiguration {
 		String accountNo = scanner.nextLine();
 
 		System.out.print("Enter the Account Balance: ");
-//		scanner.next();
 		int accountBalance = scanner.nextInt();
 
 		System.out.println("***********Available Products****************");
@@ -37,13 +36,14 @@ public class CustomerConfiguration {
 		int chooseProduct = scanner.nextInt();
 
 		if (product.get(chooseProduct - 1) instanceof SavingsMaxAccount) {
-			if (SavingsMaxAccount.minimumBalance(accountBalance)) {
+			SavingsMaxAccount selectedProduct = (SavingsMaxAccount) (product.get(chooseProduct - 1));
+			if ((selectedProduct.getMinimumBalance()) > accountBalance) {
 				account = new Account(accountNo, accountBalance, product.get(chooseProduct - 1));
 			} else {
 				do {
 					System.out.print("Re-enter the Account Balance: ");
 					accountBalance = scanner.nextInt();
-				} while (!SavingsMaxAccount.minimumBalance(accountBalance));
+				} while (!((selectedProduct.getMinimumBalance()) < accountBalance));
 				account = new Account(accountNo, accountBalance, product.get(chooseProduct - 1));
 			}
 		} else
@@ -53,10 +53,7 @@ public class CustomerConfiguration {
 		return account;
 	}
 
-//	static ArrayList<Customer> customerList = new ArrayList<Customer>();
-
 	public static ArrayList<Customer> createCustomer(ArrayList<Product> product, ArrayList<Customer> customerList) {
-		// TODO Auto-generated method stub
 
 		Scanner scanner = new Scanner(System.in);
 
@@ -82,7 +79,6 @@ public class CustomerConfiguration {
 	}
 
 	public static void displayCustomer(ArrayList<Customer> customerList) {
-		// TODO Auto-generated method stub
 
 		System.out.println("Account Details \n");
 		for (Customer customer : customerList) {
@@ -101,7 +97,6 @@ public class CustomerConfiguration {
 	}
 
 	public static void transactionBill(ArrayList<Customer> customerList) {
-		// TODO Auto-generated method stub
 
 		Scanner scanner = new Scanner(System.in);
 
@@ -128,7 +123,6 @@ public class CustomerConfiguration {
 						+ customer.getAccountList().get(chooseAccount - 1).getProduct().getProductName() + ":");
 
 				for (Services serv : customer.getAccountList().get(chooseAccount - 1).getProduct().getServiceList()) {
-//					System.out.println(chooseAccount);
 					System.out.println(serv.getServiceCode() + "\t" + serv.getServiceName() + "\t" + serv.getRate());
 				}
 
@@ -151,7 +145,6 @@ public class CustomerConfiguration {
 	}
 
 	public static void manageAccount(ArrayList<Customer> customerList) {
-		// TODO Auto-generated method stub
 
 		Scanner scanner = new Scanner(System.in);
 		System.out.println("Enter the customer id: ");
@@ -183,9 +176,12 @@ public class CustomerConfiguration {
 						if (depositAmount < 0)
 							System.out.println("Invalid input ");
 						else {
-//							LoanAccount loanAccount = null;
 							if (customer.getAccountList().get(chooseAccount - 1).getProduct() instanceof LoanAccount) {
-								customer.getAccountList().get(chooseAccount - 1).deposit(depositAmount * 0.97);
+								LoanAccount selectedProduct = (LoanAccount) customer.getAccountList()
+										.get(chooseAccount - 1).getProduct();
+
+								customer.getAccountList().get(chooseAccount - 1)
+										.deposit(depositAmount * (1 - selectedProduct.getDepositCharge()));
 							} else
 								customer.getAccountList().get(chooseAccount - 1).deposit(depositAmount);
 						}
@@ -196,8 +192,10 @@ public class CustomerConfiguration {
 						int withdrawAmount = scanner.nextInt();
 						if (customer.getAccountList().get(chooseAccount - 1)
 								.getProduct() instanceof SavingsMaxAccount) {
-							if ((SavingsMaxAccount.minimumBalance(
-									customer.getAccountList().get(chooseAccount - 1).getBalance() - withdrawAmount)))
+							SavingsMaxAccount selectedProduct = (SavingsMaxAccount) customer.getAccountList()
+									.get(chooseAccount - 1).getProduct();
+							if (selectedProduct.getMinimumBalance() < (customer.getAccountList().get(chooseAccount - 1)
+									.getBalance() - withdrawAmount))
 								customer.getAccountList().get(chooseAccount - 1).withdraw(withdrawAmount);
 						} else
 							customer.getAccountList().get(chooseAccount - 1).withdraw(withdrawAmount);
